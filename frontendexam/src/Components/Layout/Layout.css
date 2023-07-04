@@ -1,0 +1,54 @@
+/* .Layout {
+    background-color: bisque;
+	height: 800px;
+} */
+.Layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.AddMeeting,
+.TeamsMeeting {
+    margin: 20px 0;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    background: white;
+}
+
+.AddMeeting button,
+.TeamsMeeting button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #0066ff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.AddMeeting button:hover,
+.TeamsMeeting button:hover {
+    background: #0052cc;
+}
+
+.AddMeeting input,
+.TeamsMeeting input,
+.TeamsMeeting select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+

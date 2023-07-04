@@ -1,0 +1,33 @@
+.TeamsMeeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    width: 100%;
+}
+
+.TeamsMeeting label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.TeamsMeeting select {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    color: #333;
+}
+
+.TeamsMeeting h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
